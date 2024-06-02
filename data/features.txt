@@ -1,0 +1,24 @@
+Features:
+
+1. BTC opening price
+2. BTC closure price 
+3. BTC high and low on the same day 
+4. BTC market cap 
+5. Days from halving 
+6. Days to halving 
+7. Closest support level and it’s strength (?)
+8. Closest resistance level and it’s strength (?)
+9. Average RSI (or strength indicator) on the same day 
+10. Net whale transactions in BTC (transactions from wallet to exchange minus transactions from exchange to wallets the same day) 
+11. SN&P 500 average daily price 
+12. US interest rate the same day (?)
+13. USD/Gold average price the same day 
+14. History Volatility index the same day 
+15. Breaking the EMA 50 of the daily TF and consolidating above it/ breaking the EMA 200 of the daily TF and consolidating below it 
+16. Nearest Liquidations on the same day 
+17. BTC Hash Price
+18. BTC mining price (average) 
+19. Greed/Fear index 
+20. Oil price 
+21. BTC dominance 
+22. ETH price/volume

@@ -1,1 +1,1 @@
-# IoT_AI_Course
+# Invictus Crypto Strategies
