@@ -1,24 +1,25 @@
 Features:
 
-1. BTC opening price
-2. BTC closure price 
-3. BTC high and low on the same day 
-4. BTC market cap 
-5. Days from halving 
-6. Days to halving 
-7. Closest support level and it’s strength (?)
-8. Closest resistance level and it’s strength (?)
-9. Average RSI (or strength indicator) on the same day 
-10. Net whale transactions in BTC (transactions from wallet to exchange minus transactions from exchange to wallets the same day) 
-11. SN&P 500 average daily price 
-12. US interest rate the same day (?)
-13. USD/Gold average price the same day 
-14. History Volatility index the same day 
-15. Breaking the EMA 50 of the daily TF and consolidating above it/ breaking the EMA 200 of the daily TF and consolidating below it 
-16. Nearest Liquidations on the same day 
+1. BTC opening price - The price of Bitcoin (BTC) at the start of the trading day.
+2. BTC closure price - The price of Bitcoin (BTC) at the end of the trading day.
+3. BTC high and low on the same day - The highest and lowest prices that Bitcoin (BTC) reached during the trading day.
+4. BTC market cap - The total value of all Bitcoin (BTC) in circulation, calculated by multiplying the current price by the total supply of BTC.
+5. Days from halving - The number of days that have passed since the last Bitcoin (BTC) halving event, where the reward for mining new BTC was reduced by half.
+6. Days to halving - The number of days remaining until the next Bitcoin (BTC) halving event.
+7. Closest support level and it’s strength (?) - we need to calculate it - The price level at which Bitcoin (BTC) has historically found support, calculated by the number of times the price overlaps at the lowest point of the day.
+8. Closest resistance level and it’s strength (?) - The price level at which Bitcoin (BTC) has historically faced resistance, calculated by the number of times the price overlaps at the highest point of the day.
+9. Average RSI (or strength indicator) on the same day - The average RSI value for Bitcoin (BTC) during the trading day, indicating the momentum and strength of price movements.
+10. Net whale transactions in BTC (transactions from wallet to exchange minus transactions from exchange to wallets the same day) - The net amount of Bitcoin (BTC) transferred from wallets to exchanges minus the amount transferred from exchanges to wallets on the same day.
+11. SN&P 500 average daily price - The average price of the S&P 500 index during the trading day.
+12. US interest rate the same day (?) - irrelevant - The prevailing interest rate set by the US Federal Reserve on the same day. 
+13. USD/Gold average price the same day - The average price of gold in US dollars (USD) during the trading day.
+14. History Volatility index the same day - A measure of the volatility of Bitcoin (BTC) prices over a specific period, calculated as the distance from the average prices. Example calculation: https://www.bitmex.com/app/index/.BVOL7D.
+15. Breaking the EMA 50 of the daily TF and consolidating above it/ breaking the EMA 200 of the daily TF and consolidating below it - basically is moving avg - irrelevant 
+16. Nearest Liquidations on the same day - we need to retrieve the data if possible from external sources 
 17. BTC Hash Price
-18. BTC mining price (average) 
-19. Greed/Fear index 
+18. BTC mining price (average) - impossible to get - if it's retrievable, we can gather the data and join to our DS. 
+19. Greed/Fear index - 
 20. Oil price 
 21. BTC dominance 
 22. ETH price/volume
+23. Target value - boolean - if the change was above 3% 
